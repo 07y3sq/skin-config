@@ -1,430 +1,2135 @@
 {
-  "general": {
-    "watermark": {"imageResource": {"url": "","androidResource" : "logo","iosResource" : "logo"  },
-                  "position": "bottomRight",
-                  "clickUrl": "",
-                  "target": "_blank",
-                  "transparency": 1,
-                  "scalingOption": "default",
-                  "scalingPercentage": 20
+  "skins": [
+    {
+      "localization_name": "skin0",
+      "geometry": "geometry.DuckTales.FalconGraves",
+      "texture": "skin0.png",
+      "type": "free"
     },
-    "bufferingSpinnerDelay": 750,
-    "loadingImage": {"imageResource": {"url": "//player.ooyala.com/static/v4/candidate/latest/skin-plugin/assets/images/loader_svg.svg" } },
-    "accentColor":"#448aff"
-  },
-  "localization": {
-    "defaultLanguage": "en",
-    "availableLanguageFile": [
-      {
-        "language": "en",
-        "languageFile": "",
-        "androidResource": "skin-config/languageFiles/en.json",
-        "iosResource": "en"
+    {
+      "localization_name": "s3",
+      "geometry": "geometry.SoloAStarWarsStoryPack.L3-37",
+      "texture": "s3.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
       },
-      {
-        "language": "es",
-        "languageFile": "",
-        "androidResource": "skin-config/languageFiles/es.json",
-        "iosResource": "es"
+      "type": "free"
+    },
+    {
+      "localization_name": "skin01",
+      "geometry": "geometry.DuckTales.FalconGraves",
+      "texture": "skin01.png",
+      "cape": "skin01cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin1",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "skin1.png",
+      "cape": "skin1cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
       },
-      {
-        "language": "zh",
-        "languageFile": "",
-        "androidResource": "skin-config/languageFiles/zh.json",
-        "iosResource": "zh"
+      "type": "free"
+    },
+    {
+      "localization_name": "skin2",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin2.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin3",
+      "geometry": "geometry.MiniGameHeroes.MiniGameHeroesLlamaTumbler",
+      "texture": "skin3.png",
+      "type": "free",
+      "cape": "skin3cape.png"
+    },
+    {
+      "localization_name": "skin4",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin4.png",
+      "type": "free",
+      "cape": "skin4cape.png"
+    },
+    {
+      "localization_name": "skin5",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin5.png",
+      "type": "free",
+      "cape": "skin5cape.png"
+    },
+    {
+      "localization_name": "skin6",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin6.png",
+      "type": "free",
+      "cape": "skin6cape.png"
+    },
+    {
+      "localization_name": "skin7",
+      "geometry": "geometry.2ndBirthday.BanjoKazooieGruntilda",
+      "texture": "skin7.png",
+      "type": "free",
+      "cape": "skin7cape.png"
+    },
+    {
+      "localization_name": "kin7",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "kin7.png",
+      "type": "free",
+      "cape": "kin7cape.png"
+    },
+    {
+      "localization_name": "skin8",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin8.png",
+      "type": "free",
+      "cape": "skin8cape.png"
+    },
+    {
+      "localization_name": "skin9",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin9.png",
+      "type": "free",
+      "cape": "skin9cape.png"
+    },
+    {
+      "localization_name": "skin10",
+      "geometry": "geometry.MarioBrothers.Yoshi",
+      "texture": "skin10.png",
+      "type": "free",
+      "cape": "skin10cape.png"
+    },
+    {
+      "localization_name": "skin11",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin11.png",
+      "type": "free",
+      "cape": "skin11cape.png"
+    },
+    {
+      "localization_name": "skin12",
+      "geometry": "geometry.MarioBrothers.Peach",
+      "texture": "skin12.png",
+      "cape": "skin12cape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.stationary"
       },
-      {
-        "language": "ja",
-        "languageFile": "",
-        "androidResource": "skin-config/languageFiles/ja.json",
-        "iosResource": "ja"
+      "type": "free"
+    },
+    {
+      "localization_name": "kin12",
+      "geometry": "geometry.MarioBrothers.Peach",
+      "texture": "kin12.png",
+      "cape": "kin12cape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.stationary"
       },
-      {
-        "language": "ko",
-        "languageFile": "",
-        "androidResource": "skin-config/languageFiles/ko.json",
-        "iosResource": "ko"
-      }
-    ]
-  },
-  "languageDirections": {
-    "ar": "rtl",
-    "dv": "rtl",
-    "he": "rtl",
-    "fa": "rtl",
-    "ks": "rtl",
-    "ku": "rtl",
-    "pa": "rtl",
-    "ps": "rtl",
-    "sd": "rtl",
-    "tk": "rtl",
-    "ug": "rtl",
-    "ur": "rtl",
-    "yi": "rtl"
-  },
-  "responsive": {
-    "breakpoints": {
-      "audio-only-xs": {"id": "audio-only-xs", "name": "oo-xsmall", "multiplier": 0.7},
-      "xs": {"id": "xs", "name": "oo-xsmall", "maxWidth": 559, "multiplier": 0.7},
-      "sm": {"id": "sm", "name": "oo-small", "minWidth": 560, "maxWidth": 839, "multiplier": 1},
-      "md": {"id": "md", "name": "oo-medium", "minWidth": 840, "maxWidth": 1279, "multiplier": 1},
-      "lg": {"id": "lg", "name": "oo-large", "minWidth": 1280, "multiplier": 1.2}
+      "type": "free"
     },
-    "aspectRatio": "auto"
-  },
-  "startScreen": {
-    "promoImageSize": "default",
-    "showPlayButton": true,
-    "playButtonPosition": "center",
-    "playIconStyle": {
-      "color": "white",
-      "opacity": 1
+    {
+      "localization_name": "kin12A",
+      "geometry": "geometry.MarioBrothers.Peach",
+      "texture": "kin12A.png",
+      "cape": "kin12Acape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.stationary"
+      },
+      "type": "free"
     },
-    "showTitle": true,
-    "showDescription": true,
-    "titleFont": {
-      "color": "white"
+    {
+      "localization_name": "kin12B",
+      "geometry": "geometry.MarioBrothers.Peach",
+      "texture": "kin12B.png",
+      "cape": "kin12Bcape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.stationary"
+      },
+      "type": "free"
     },
-    "descriptionFont": {
-      "color": "white"
+    {
+      "localization_name": "skin13",
+      "geometry": "geometry.StevenUniverse.Emerald",
+      "texture": "skin13.png",
+      "type": "free",
+      "cape": "skin13cape.png"
     },
-    "infoPanelPosition": "topLeft",
-    "showPromo": true
-  },
-  "pauseScreen": {
-    "showPauseIcon": true,
-    "pauseIconPosition": "center",
-    "PauseIconStyle": {
-      "color": "white",
-      "opacity": 1
+    {
+      "localization_name": "skin14",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin14.png",
+      "type": "free",
+      "cape": "skin14cape.png"
     },
-    "showTitle": true,
-    "showDescription": true,
-    "infoPanelPosition": "topLeft",
-    "screenToShowOnPause": "default"
-  },
-  "endScreen": {
-    "screenToShowOnEnd": "discovery",
-    "showReplayButton": true,
-    "replayIconStyle": {
-      "color": "white",
-      "opacity": 1
+    {
+      "localization_name": "skin15",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin15.png",
+      "type": "free",
+      "cape": "skin15cape.png"
     },
-    "showTitle": false,
-    "showDescription": false,
-    "infoPanelPosition": "topLeft"
-  },
-  "adScreen": {
-    "showAdMarquee": true,
-    "showAdCountDown": true,
-    "showControlBar": false
-  },
-  "discoveryScreen": {
-    "panelTitle": {
-      "titleFont": {
-        "fontFamily": "Roboto Condensed",
-        "color": "white"
-      }
+    {
+      "localization_name": "skin16",
+    "META_ModelVersion": "1.0.6",
+      "geometry": "geometry.TheNightmareBeforeChristmas.SandyClaws",
+      "texture": "skin16.png",
+      "type": "free"
     },
-    "contentTitle": {
-      "show": true,
-      "font": {
-        "fontFamily": "Roboto Condensed",
-        "color": "white"
-      }
+    {
+      "localization_name": "skin17",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin17.png",
+      "type": "free",
+      "cape": "skin17cape.png"
     },
-    "showCountDownTimerOnEndScreen": true,
-    "countDownTime": 10
-  },
-  "shareScreen": {
-    "shareContent": ["social", "embed"],
-    "socialContent": ["twitter", "facebook", "google+", "email"],
-    "embed": {
-      "source": "<iframe width='640' height='480' frameborder='0' allowfullscreen src='//player.ooyala.com/static/v4/candidate/latest/skin-plugin/iframe.html?ec=<ASSET_ID>&pbid=<PLAYER_ID>&pcode=<PUBLISHER_ID>'></iframe>"
+    {
+      "localization_name": "skin18",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin18.png",
+      "type": "free",
+      "cape": "skin18cape.png"
+    },
+    {
+      "localization_name": "skin19",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin19.png",
+      "type": "free",
+      "cape": "skin19cape.png"
+    },
+    {
+      "localization_name": "skin20",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin20.png",
+      "type": "free",
+      "cape": "skin20cape.png"
+    },
+    {
+      "localization_name": "skin21",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin21.png",
+      "type": "free",
+      "cape": "skin21cape.png"
+    },
+    {
+      "localization_name": "kin21",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "kin21.png",
+      "type": "free",
+      "cape": "kin21cape.png"
+    },
+    {
+      "localization_name": "skin22",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin22.png",
+      "type": "free",
+      "cape": "skin22cape.png"
+    },
+    {
+      "localization_name": "skin23",
+      "geometry": "geometry.MashUpHalloween.AlexAnatomy",
+      "texture": "skin23.png",
+      "type": "free",
+      "cape": "skin23cape.png"
+    },
+    {
+      "localization_name": "skin24",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin24.png",
+      "type": "free",
+      "cape": "skin24cape.png"
+    },
+    {
+      "localization_name": "skin25",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin25.png",
+      "cape": "skin25cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },    
+    {
+      "localization_name": "skin26",
+      "geometry": "geometry.oaken",
+      "texture": "skin26.png",
+      "type": "free",
+      "cape": "skin26cape.png"
+    },
+    {
+      "localization_name": "skin27",
+      "geometry": "geometry.oaken",
+      "texture": "skin27.png",
+      "type": "free",
+      "cape": "skin27cape.png"
+    },
+    {
+      "localization_name": "skin28",
+      "geometry": "geometry.oaken",
+      "texture": "skin28.png",
+      "type": "free",
+      "cape": "skin28cape.png"
+    },
+    {
+      "localization_name": "skin29",
+      "geometry": "geometry.oaken",
+      "texture": "skin29.png",
+      "type": "free",
+      "cape": "skin29cape.png"
+    },
+    {
+      "localization_name": "skin30",
+      "geometry": "geometry.SkinPack3.Iota",
+      "texture": "skin30.png",
+      "cape": "skin30cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin1",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "kin1.png",
+      "cape": "kin1cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin2",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "kin2.png",
+      "cape": "kin2cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin3",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "kin3.png",
+      "cape": "kin3cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin4",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "kin4.png",
+      "cape": "kin4cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin5",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "kin5.png",
+      "cape": "kin5cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin31",
+      "geometry": "geometry.SkinPack3.Iota",
+      "texture": "skin31.png",
+      "type": "free",
+      "cape": "skin31cape.png"
+    },
+    {
+      "localization_name": "skin32",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin32.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin33",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin33.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin34",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin34.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin35",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin35.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "kin35",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "kin35.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin36",
+      "geometry": "geometry.FINALFANTASYXVSkinPack.Bahamut",
+      "texture": "skin36.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin37",
+      "geometry": "geometry.TheNightmareBeforeChristmas.JackSkellingtonSandyClaws",
+      "texture": "skin37.png",
+      "cape": "skin37cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie"},
+      "type": "free"
+    },
+    {
+      "localization_name": "skin38",
+      "geometry": "geometry.PowerRangers.Megazord",
+      "texture": "skin38.png",
+      "type": "free",
+      "cape": "skin38cape.png"
+    },
+    {
+      "localization_name": "skin39",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin39.png",
+      "type": "free",
+      "cape": "skin39cape.png"
+    },
+    {
+      "localization_name": "skin40",
+      "geometry": "geometry.SuperCuteTexturePack.Lollipopsuit",
+      "texture": "skin40.png",
+      "cape": "skin40cape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.inverted",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "enable_attachables": false,
+      "type": "free"
+    },
+    {
+      "localization_name": "skin41",
+      "geometry": "geometry.BeachPartySkinPack.BeachBall",
+      "texture": "skin41.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.inverted",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "enable_attachables": false,
+      "type": "free"
+    },
+    {
+      "localization_name": "kin41",
+      "geometry": "geometry.BeachPartySkinPack.BeachBall",
+      "texture": "kin41.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin42",
+      "geometry": "geometry.BeachPartySkinPack.BeachBall",
+      "texture": "kin42.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin42",
+      "geometry": "geometry.TheNightmareBeforeChristmas.Ned",
+      "texture": "skin42.png",
+      "cape": "skin42cape.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin43",
+      "geometry": "geometry.DuckTales.Manny",
+      "texture": "skin43.png",
+      "cape": "skin43cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.statue_of_liberty"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin44",
+      "geometry": "geometry.sign",
+      "texture": "skin44.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin45",
+      "geometry": "geometry.MiniGameHeroes.MiniGameHeroesVillagerTumbler",
+      "texture": "skin45.png",
+      "type": "free",
+      "cape": "skin45cape.png"
+    },
+    {
+      "localization_name": "skin46",
+      "geometry": "geometry.BeachPartySkinPack.ClassyBeachwear",
+      "texture": "skin46.png",
+      "cape": "skin46cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.statue_of_liberty"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin46",
+      "geometry": "geometry.BeachPartySkinPack.ClassyBeachwear",
+      "texture": "kin46.png",
+      "cape": "kin46cape.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.zombie"},
+      "type": "free"
+    },
+    {
+      "localization_name": "skin47",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin47.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin48",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "skin48.png",
+      "type": "free",
+      "cape": "skin48cape.png"
+    },
+    {
+      "localization_name": "skin49",
+      "geometry": "geometry.TheNightmareBeforeChristmas.JackThePumpkinKing",
+      "texture": "skin49.png",
+      "type": "free",
+      "cape": "skin49cape.png"
+    },
+    {
+      "localization_name": "skin50",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "skin50.png",
+      "type": "free",
+      "cape": "skin50cape.png"
+    },
+    {
+      "localization_name": "kin50",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "kin50.png",
+      "type": "free",
+      "cape": "kin50cape.png"
+    },
+    {
+      "localization_name": "kin51",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "kin51.png",
+      "cape": "kin51cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin51",
+      "geometry": "geometry.oaken",
+      "texture": "skin51.png",
+      "type": "free",
+      "cape": "skin51cape.png"
+    },
+    {
+      "localization_name": "skin52",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "skin52.png",
+      "cape": "skin52cape.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.single",
+        "move.legs": "animation.player.move.legs.single"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin53",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin53.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.single",
+        "move.legs": "animation.player.move.legs.single"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin54",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin54.png",
+      "cape": "skin54cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.statue_of_liberty"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin55",
+      "geometry": "geometry.ToyStoryMash-Up.Bunny",
+      "texture": "skin55.png",
+      "type": "free",
+      "cape": "skin55cape.png"
+    },
+    {
+      "localization_name": "skin56",
+      "geometry": "geometry.PowerRangers.Megazord",
+      "texture": "skin56.png",
+      "cape": "skin56cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.statue_of_liberty"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin57",
+      "geometry": "geometry.PowerRangers.Megazord",
+      "texture": "skin57.png",
+      "type": "free",
+      "cape": "skin57cape.png"
+    },
+    {
+      "localization_name": "skin58",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "skin58.png",
+      "type": "free",
+      "cape": "skin58cape.png"
+    },
+    {
+      "localization_name": "skin59",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin59.png",
+      "type": "free",
+      "cape": "skin59cape.png"
+    },
+    {
+      "localization_name": "skin60",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin60.png",
+      "type": "free",
+      "cape": "skin60cape.png"
+    },
+    {
+      "localization_name": "skin61",
+      "geometry": "geometry.Simpsons.Uter",
+      "texture": "skin61.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin62",
+      "geometry": "geometry.Simpsons.Wendell",
+      "texture": "skin62.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin63",
+      "geometry": "geometry.Simpsons.Terri",
+      "texture": "skin63.png",
+      "type": "free",
+      "cape": "skin63cape.png"
+    },
+    {
+      "localization_name": "skin64",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin64.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin66",
+      "geometry": "geometry.Simpsons.GroundskeeperWillie",
+      "texture": "skin66.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin67",
+      "geometry": "geometry.Simpsons.MrsEdnaKrabappel",
+      "texture": "skin67.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin68",
+      "geometry": "geometry.Simpsons.PrincipalSeymourSkinner",
+      "texture": "skin68.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin69",
+      "geometry": "geometry.Simpsons.HomerSimpson",
+      "texture": "skin69.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin70",
+      "geometry": "geometry.Simpsons.LisaSimpson",
+      "texture": "skin70.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin71",
+      "geometry": "geometry.Simpsons.BartSimpson",
+      "texture": "skin71.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin72",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "skin72.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "kin72",
+      "geometry": "geometry.Simpsons.Database",
+      "texture": "kin72.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin73",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin73.png",
+      "type": "free",
+      "cape": "skin73cape.png"
+    },
+    {
+      "localization_name": "skin74",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin74.png",
+      "type": "free",
+      "cape": "skin74cape.png"
+    },
+    {
+      "localization_name": "skin75",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin75.png",
+      "type": "free",
+      "cape": "skin75cape.png"
+    },
+    {
+      "localization_name": "skin76",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin76.png",
+      "type": "free",
+      "cape": "skin76cape.png"
+    },
+    {
+      "localization_name": "skin77",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin77.png",
+      "type": "free",
+      "cape": "skin77cape.png"
+    },
+    {
+      "localization_name": "skin78",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin78.png",
+      "type": "free",
+      "cape": "skin78cape.png"
+    },
+    {
+      "localization_name": "skin79",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin79.png",
+      "type": "free",
+      "cape": "skin79cape.png"
+    },
+    {
+      "localization_name": "skin80",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin80.png",
+      "type": "free",
+      "cape": "skin80cape.png"
+    },
+    {
+      "localization_name": "skin81",
+      "geometry": "geometry.MiniGameHeroes.MiniGameHeroesHorseTumbler",
+      "texture": "skin81.png",
+      "type": "free",
+      "cape": "skin81cape.png"
+    },
+    {
+      "localization_name": "skin82",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin82.png",
+      "type": "free",
+      "cape": "skin82cape.png"
+    },
+    {
+      "localization_name": "skin83",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin83.png",
+      "type": "free",
+      "cape": "skin83cape.png"
+    },
+    {
+      "localization_name": "skin84",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin84.png",
+      "type": "free",
+      "cape": "skin84cape.png"
+    },
+    {
+      "localization_name": "skin85",
+      "geometry": "geometry.FINALFANTASYXVSkinPack.Redirongiant",
+      "texture": "skin85.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin86",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin86.png",
+      "cape": "skin86cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin87",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin87.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin88",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin88.png",
+      "cape": "skin88cape.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.single"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin89",
+      "geometry": "geometry.TheNightmareBeforeChristmas.JackSkellingtonSandyClaws",
+      "texture": "skin89.png",
+      "type": "free",
+      "cape": "skin89cape.png"
+    },
+    {
+      "localization_name": "skin90",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin90.png",
+      "type": "free",
+      "cape": "skin90cape.png"
+    },
+    {
+      "localization_name": "skin91",
+      "geometry": "geometry.GreekMythology.Hydra",
+      "texture": "skin91.png",
+      "cape": "skin91cape.png",
+     "animations": {
+        "move.legs": "animation.player.move.legs.inverted",
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin92",
+      "geometry": "geometry.StarWarsPrequel.BattleDroidonC3PO",
+      "texture": "skin92.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin93",
+      "geometry": "geometry.StarWarsPrequel.AaylaSecura",
+      "texture": "skin93.png",
+      "type": "free",
+      "cape": "skin93cape.png"
+    },
+    {
+      "localization_name": "skin94",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin94.png",
+      "type": "free",
+      "cape": "skin94cape.png"
+    },
+    {
+      "localization_name": "skin95",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin95.png",
+      "type": "free",
+      "cape": "skin95cape.png"
+    },
+    {
+      "localization_name": "skin96",
+      "geometry": "geometry.MashUpHalloween.AlexAnatomy",
+      "texture": "skin96.png",
+      "type": "free",
+      "cape": "skin96cape.png"
+    },
+    {
+      "localization_name": "skin97",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin97.png",
+      "type": "free",
+      "cape": "skin97cape.png"
+    },
+    {
+      "localization_name": "skin98",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin98.png",
+      "type": "free",
+      "cape": "skin98cape.png"
+    },
+    {
+      "localization_name": "kin6",
+      "geometry": "geometry.BattleAndBeasts2.Dolphin",
+      "texture": "kin6.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin99",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin99.png",
+      "type": "free",
+      "cape": "skin99cape.png"
+    },
+    {
+      "localization_name": "skin100",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin100.png",
+      "type": "free",
+      "cape": "skin100cape.png"
+    },
+    {
+      "localization_name": "skin101",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin101.png",
+      "type": "free",
+      "cape": "skin101cape.png"
+    },
+    {
+      "localization_name": "skin102",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin102.png",
+      "type": "free",
+      "cape": "skin102cape.png"
+    },
+    {
+      "localization_name": "skin103",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin103.png",
+      "type": "free",
+      "cape": "skin103cape.png"
+    },
+    {
+      "localization_name": "skin104",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin104.png",
+      "type": "free",
+      "cape": "skin104cape.png"
+    },
+    {
+      "localization_name": "skin105",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin105.png",
+      "type": "free",
+      "cape": "skin105cape.png"
+    },
+    {
+      "localization_name": "skin106",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin106.png",
+      "type": "free",
+      "cape": "skin106cape.png"
+    },
+    {
+      "localization_name": "skin107",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin107.png",
+      "type": "free",
+      "cape": "skin107cape.png"
+    },
+    {
+      "localization_name": "skin108",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin108.png",
+      "type": "free",
+      "cape": "skin108cape.png"
+    },
+    {
+      "localization_name": "skin109",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin109.png",
+      "type": "free",
+      "cape": "skin109cape.png"
+    },
+    {
+      "localization_name": "skin110",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin110.png",
+      "type": "free",
+      "cape": "skin110cape.png"
+    },
+    {
+      "localization_name": "skin111",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin111.png",
+      "type": "free",
+      "cape": "skin111cape.png"
+    },
+    {
+      "localization_name": "skin112",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin112.png",
+      "type": "free",
+      "cape": "skin112cape.png"
+    },
+    {
+      "localization_name": "skin113",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin113.png",
+      "type": "free",
+      "cape": "skin113cape.png"
+    },
+    {
+      "localization_name": "skin114",
+      "geometry": "geometry.StarWarsPrequel.AaylaSecura",
+      "texture": "skin114.png",
+      "cape": "skin114cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin115",
+      "geometry": "geometry.StarWarsPrequel.MasAmedda",
+      "texture": "skin115.png",
+      "type": "free",
+      "cape": "skin115cape.png"
+    },
+    {
+      "localization_name": "skin116",
+      "geometry": "geometry.StarWarsClassic.DagobahLukeSkywalkerv2",
+      "texture": "skin116.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin117",
+      "geometry": "geometry.LittleBigPlanetMash-Up.Littlebigplanetfairysackgirl",
+      "texture": "skin117.png",
+      "type": "free",
+      "cape": "skin117cape.png"
+    },
+    {
+      "localization_name": "skin118",
+      "geometry": "geometry.LittleBigPlanetMash-Up.Littlebigplanetfairysackgirl",
+      "texture": "skin118.png",
+      "type": "free",
+      "cape": "skin118cape.png"
+    },
+    {
+      "localization_name": "skin119",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin119.png",
+      "type": "free",
+      "cape": "skin119cape.png"
+    },
+    {
+      "localization_name": "skin120",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin120.png",
+      "type": "free",
+      "cape": "skin120cape.png"
+    },
+    {
+      
+      "localization_name": "skin121",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin121.png",
+      "cape": "skin121cape.png",
+      "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+      
+  
+    {
+      "localization_name": "skin122",
+      "geometry": "geometry.2ndBirthday.BanjoKazooieKazooie",
+      "texture": "skin122.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin123",
+      "geometry": "geometry.SkinPack3.Iota",
+      "texture": "skin123.png",
+      "type": "free",
+      "cape": "skin123cape.png"
+    },
+    {
+      "localization_name": "skin124",
+      "geometry": "geometry.MoanaCharacterPack.SlothMonster",
+      "texture": "skin124.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin125",
+      "geometry": "geometry.MoanaCharacterPack.SlothMonster",
+      "texture": "skin125.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin126",
+      "geometry": "geometry.MoanaCharacterPack.SlothMonster",
+      "texture": "skin126.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin127",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin127.png",
+      "type": "free",
+      "cape": "skin127cape.png"
+    },
+    {
+      "localization_name": "skin128",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin128.png",
+      "type": "free",
+      "cape": "skin128cape.png"
+    },
+    {
+      "localization_name": "skin129",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin129.png",
+      "type": "free",
+      "cape": "skin129cape.png"
+    },
+    {
+      "localization_name": "skin130",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin130.png",
+      "type": "free",
+      "cape": "skin130cape.png"
+    },
+    {
+      "localization_name": "skin131",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin131.png",
+      "type": "free",
+      "cape": "skin131cape.png"
+    },
+    {
+      "localization_name": "skin132",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin132.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin133",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin133.png",
+      "type": "free",
+      "cape": "skin133cape.png"
+    },
+    {
+      "localization_name": "skin134",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin134.png",
+      "type": "free",
+      "cape": "skin134cape.png"
+    },
+    {
+      "localization_name": "skin135",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin135.png",
+      "type": "free",
+      "cape": "skin135cape.png"
+    },
+    {
+      "localization_name": "skin136",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin136.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin137",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin137.png",
+      "type": "free",
+      "cape": "skin137cape.png"
+    },
+    {
+      "localization_name": "skin138",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin138.png",
+      "type": "free",
+      "cape": "skin138cape.png"
+    },
+    {
+      "localization_name": "skin139",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin139.png",
+      "cape": "skin139cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin140",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin140.png",
+      "type": "free",
+      "cape": "skin140cape.png"
+    },
+    {
+      "localization_name": "skin141",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin141.png",
+      "type": "free",
+      "cape": "skin141cape.png"
+    },
+    {
+      "localization_name": "skin142",
+      "geometry": "geometry.sonic.eggman",
+      "texture": "skin142.png",
+      "cape": "skin142cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin143",
+      "geometry": "geometry.PowerRangers.RitaRepulsa",
+      "texture": "skin143.png",
+      "type": "free",
+      "cape": "skin143cape.png"
+    },
+    {
+      "localization_name": "skin144",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin144.png",
+      "type": "free",
+      "cape": "skin144cape.png"
+    },
+    {
+      "localization_name": "skin145",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin145.png",
+      "type": "free",
+      "cape": "skin145cape.png"
+    },
+    {
+      "localization_name": "skin146",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin146.png",
+      "type": "free",
+      "cape": "skin146cape.png"
+    },
+    {
+      "localization_name": "skin147",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin147.png",
+      "type": "free",
+      "cape": "skin147cape.png"
+    },
+    {
+      "localization_name": "skin148",
+      "geometry": "geometry.ChineseMythology.SnakeCelestialGoddessNuwa",
+      "texture": "skin148.png",
+      "type": "free",
+      "cape": "skin148cape.png"
+    },
+    {
+      "localization_name": "skin149",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin149.png",
+      "type": "free",
+      "cape": "skin149cape.png"
+    },
+    {
+      "localization_name": "skin150",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin150.png",
+      "type": "free",
+      "cape": "skin150cape.png"
+    },
+    {
+      "localization_name": "skin151",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin151.png",
+      "cape": "skin151cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"      
+    },
+    {
+      "localization_name": "skin152",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin152.png",
+      "type": "free",
+      "cape": "skin152cape.png"
+    },
+    {
+      "localization_name": "skin153",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin153.png",
+      "type": "free",
+      "cape": "skin153cape.png"
+    },
+    {
+      "localization_name": "skin154",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin154.png",
+      "type": "free",
+      "cape": "skin154cape.png"
+    },
+    {
+      "localization_name": "skin155",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin155.png",
+      "type": "free",
+      "cape": "skin155cape.png"
+    },
+    {
+      "localization_name": "skin156",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin156.png",
+      "type": "free",
+      "cape": "skin156cape.png"
+    },
+    {
+      "localization_name": "skin157",
+      "geometry": "geometry.ChineseMythology.SouthernSymbolVermillionBird",
+      "texture": "skin157.png",
+      "type": "free",
+      "cape": "skin157cape.png"
+    },
+    {
+      "localization_name": "skin158",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "skin158.png",
+      "cape": "skin158cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin158",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "kin158.png",
+      "type": "free",
+      "cape": "kin158cape.png"
+    },
+    {
+      "localization_name": "kin159",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "kin159.png",
+      "type": "free",
+      "cape": "kin159cape.png"
+    },
+    {
+      "localization_name": "kin160",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "kin160.png",
+      "type": "free",
+      "cape": "kin160cape.png"
+    },
+    {
+      "localization_name": "skin159",
+      "geometry": "geometry.oaken",
+      "texture": "skin159.png",
+      "cape": "skin159cape.png",
+      "animations": {
+        "move.legs": "animation.player.move.legs.inverted",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "enable_attachables": false,
+      "type": "free"
+    },
+    {
+      "localization_name": "skin160",
+      "geometry": "geometry.oaken",
+      "texture": "skin160.png",
+      "type": "free",
+      "cape": "skin160cape.png"
+    },
+    {
+      "localization_name": "skin161",
+      "geometry": "geometry.oaken",
+      "texture": "skin161.png",
+      "type": "free",
+      "cape": "skin161cape.png"
+    },
+    {
+      "localization_name": "skin162",
+      "geometry": "geometry.oaken",
+      "texture": "skin162.png",
+      "type": "free",
+      "cape": "skin162cape.png"
+    },
+    {
+      "localization_name": "skin163",
+      "geometry": "geometry.TheNightmareBeforeChristmas.OogieBoogie",
+      "texture": "skin163.png",
+      "type": "free",
+      "cape": "skin163cape.png"
+    },
+    {
+      "localization_name": "skin164",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin164.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin165",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin165.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin166",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin166.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin167",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin167.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin168",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skin168.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin169",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin169.png",
+      "cape": "skin169cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin170",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin170.png",
+      "type": "free",
+      "cape": "skin170cape.png"
+    },
+    {
+      "localization_name": "skin171",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin171.png",
+      "type": "free",
+      "cape": "skin171cape.png"
+    },
+    {
+      "localization_name": "skin172",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin172.png",
+      "type": "free",
+      "cape": "skin172cape.png"
+    },
+    {
+      "localization_name": "skin173",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin173.png",
+      "type": "free",
+      "cape": "skin173cape.png"
+    },
+    {
+      "localization_name": "skin174",
+      "geometry": "geometry.TheNightmareBeforeChristmas.Shock",
+      "texture": "skin174.png",
+      "type": "free",
+      "cape": "skin174cape.png"
+    },
+    {
+      "localization_name": "skin175",
+      "geometry": "geometry.DuckTales.DJDaftDuck",
+      "texture": "skin175.png",
+      "type": "free",
+      "cape": "skin175cape.png"
+    },
+    {
+      "localization_name": "in1",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in1.png",
+      "cape": "in1cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in2",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in2.png",
+      "cape": "in2cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in3",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in3.png",
+      "cape": "in3cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in4",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in4.png",
+      "cape": "in4cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in5",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "in5.png",
+      "cape": "in5cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in6",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "in6.png",
+      "cape": "in6cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in7",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in7.png",
+      "cape": "in7cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in8",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in8.png",
+      "cape": "in8cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "in9",
+      "geometry": "geometry.DuckTales.Quackerjack",
+      "texture": "in9.png",
+      "cape": "in9cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.stationary"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin176",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin176.png",
+      "cape": "skin176cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin177",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin177.png",
+      "type": "free",
+      "cape": "skin177cape.png"
+    },
+    {
+      "localization_name": "skin178",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin178.png",
+      "type": "free",
+      "cape": "skin178cape.png"
+    },
+    {
+      "localization_name": "skin179",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin179.png",
+      "type": "free",
+      "cape": "skin179cape.png"
+    },
+    {
+      "localization_name": "skin180",
+      "geometry": "geometry.Simpsons.OttoMann",
+      "texture": "skin180.png",
+      "type": "free",
+      "cape": "skin180cape.png"
+    },
+    {
+      "localization_name": "skin181",
+      "geometry": "geometry.MoanaCharacterPack.KakamoraChief",
+      "texture": "skin181.png",
+      "type": "free",
+      "cape": "skin181cape.png"
+    },
+    {
+      "localization_name": "skin182",
+      "geometry": "geometry.StarWarsPrequel.AaylaSecura",
+      "texture": "skin182.png",
+      "type": "free",
+      "cape": "skin182cape.png"
+    },
+    {
+      "localization_name": "skin183",
+      "geometry": "geometry.StarWarsPrequel.BattleDroidonC3PO",
+      "texture": "skin183.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin184",
+      "geometry": "geometry.MashupAdventureTime.Death",
+      "texture": "skin184.png",
+      "type": "free",
+      "cape": "skin184cape.png"
+    },
+    {
+      "localization_name": "skin185",
+      "geometry": "geometry.Simpsons.MargeSimpson",
+      "texture": "skin185.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin186",
+      "geometry": "geometry.Simpsons.HomerSimpson",
+      "texture": "skin186.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin187",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin187.png",
+      "type": "free",
+      "cape": "skin187cape.png"
+    },
+    {
+      "localization_name": "skin188",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin188.png",
+      "type": "free",
+      "cape": "skin188cape.png"
+    },
+    {
+      "localization_name": "skin189",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin189.png",
+      "type": "free",
+      "cape": "skin189cape.png"
+    },
+    {
+      "localization_name": "skin190",
+      "geometry": "geometry.MashupAdventureTime.GrobGobGlobGrod",
+      "texture": "skin190.png",
+      "type": "free",
+      "cape": "skin190cape.png"
+    },
+    {
+      "localization_name": "skin191",
+      "geometry": "geometry.StarWarsPrequel.GeneralGrievous",
+      "texture": "skin191.png",
+      "type": "free",
+      "cape": "skin191cape.png"
+    },
+    {
+      "localization_name": "skin192",
+      "geometry": "geometry.2ndBirthday.Wither",
+      "texture": "skin192.png",
+      "type": "free",
+      "cape": "skin192cape.png"
+    },
+    {
+      "localization_name": "skin193",
+      "geometry": "geometry.ChineseMythology.ZhuBajie",
+      "texture": "skin193.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin194",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin194.png",
+      "type": "free",
+      "cape": "skin194cape.png"
+    },
+    {
+      "localization_name": "skin195",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin195.png",
+      "cape": "skin195cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin196",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin196.png",
+      "cape": "skin196cape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin197",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin197.png",
+      "type": "free",
+      "cape": "skin197cape.png"
+    },
+    {
+      "localization_name": "skin198",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin198.png",
+      "type": "free",
+      "cape": "skin198cape.png"
+    },
+    {
+      "localization_name": "skin199",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin199.png",
+      "type": "free",
+      "cape": "skin199cape.png"
+    },
+    {
+      "localization_name": "skin200",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin200.png",
+      "type": "free",
+      "cape": "skin200cape.png"
+    },
+    {
+      "localization_name": "skin201",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin201.png",
+      "type": "free",
+      "cape": "skin201cape.png"
+    },
+    {
+      "localization_name": "skin202",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin202.png",
+      "type": "free",
+      "cape": "skin202cape.png"
+    },
+    {
+      "localization_name": "skin203",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin203.png",
+      "type": "free",
+      "cape": "skin203cape.png"
+    },
+    {
+      "localization_name": "skin204",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin204.png",
+      "type": "free",
+      "cape": "skin204cape.png"
+    },
+    {
+      "localization_name": "skin205",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin205.png",
+      "type": "free",
+      "cape": "skin205cape.png"
+    },
+    {
+      "localization_name": "skin206",
+      "geometry": "geometry.HolidaySkinPack2015.Tomte",
+      "texture": "skin206.png",
+      "type": "free",
+      "cape": "skin206cape.png"
+    },
+    {
+      "localization_name": "skin207",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin207.png",
+      "type": "free",
+      "cape": "skin207cape.png"
+    },
+    {
+      "localization_name": "sinC",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "sinC.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "sinB",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "sinB.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "sinA",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "sinA.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin208",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin208.png",
+      "type": "free",
+      "cape": "skin208cape.png"
+    },
+    {
+      "localization_name": "skin209",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin209.png",
+      "type": "free",
+      "cape": "skin209cape.png"
+    },
+    {
+      "localization_name": "skin210",
+      "geometry": "geometry.2ndBirthday.PartyRobedFigure-Red",
+      "texture": "skin210.png",
+      "type": "free",
+      "cape": "skin210cape.png"
+    },
+    {
+      "localization_name": "skin211",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin211.png",
+      "type": "free",
+      "cape": "skin211cape.png"
+    },
+    {
+      "localization_name": "skin212",
+      "geometry": "geometry.kirb1",
+      "texture": "skin212.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin213",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "skin213.png",
+      "type": "free",
+      "cape": "skin213cape.png"
+    },
+    {
+      "localization_name": "skin214",
+      "geometry": "geometry.MoanaCharacterPack.Heihei",
+      "texture": "skin214.png",
+      "cape": "skin214cape.png",
+     "animations": {
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skin215",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin215.png",
+      "type": "free",
+      "cape": "skin215cape.png"
+    },
+    {
+      "localization_name": "skin216",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin216.png",
+      "type": "free",
+      "cape": "skin216cape.png"
+    },
+    {
+      "localization_name": "skin217",
+      "geometry": "geometry.LittleBigPlanetMash-Up.Littlebigplanetdragonsackboy",
+      "texture": "skin217.png",
+      "type": "free",
+      "cape": "skin217cape.png"
+    },
+    {
+      "localization_name": "skin218",
+      "geometry": "geometry.NorseMythology.Troll",
+      "texture": "skin218.png",
+      "type": "free",
+      "cape": "skin218cape.png"
+    },
+    {
+      "localization_name": "skin219",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin219.png",
+      "type": "free",
+      "cape": "skin219cape.png"
+    },
+    {
+      "localization_name": "skin220",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin220.png",
+      "type": "free",
+      "cape": "skin220cape.png"
+    },
+    {
+      "localization_name": "skinS",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skinS.png",
+      "type": "free",
+      "cape": "skinScape.png"
+    },
+    {
+      "localization_name": "skin222",
+      "geometry": "geometry.PawsAndClaws.tuxedocat",
+      "texture": "skin222.png",
+      "type": "free",
+      "cape": "skin222cape.png"
+    },
+    {
+      "localization_name": "skin223",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "skin223.png",
+      "type": "free",
+      "cape": "skin223cape.png"
+    },
+    {
+      "localization_name": "kinQ",
+      "geometry": "geometry.DuckTales.Amunet",
+      "texture": "kinQ.png",
+      "type": "free",
+      "cape": "kinQcape.png"
+    },
+    {
+      "localization_name": "kinT",
+      "geometry": "geometry.MashupAdventureTime.Witch",
+      "texture": "kinT.png",
+      "type": "free",
+      "cape": "kinTcape.png"
+    },
+    {
+      "localization_name": "T5",
+      "geometry": "geometry.HolidaySkinPack2015.ChristmasCreeper",
+      "texture": "T5.png",
+      "cape": "TC5.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "T6",
+      "geometry": "geometry.ToyStoryMash-Up.Rex",
+      "texture": "T6.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skinT",
+      "geometry": "geometry.ToyStoryMash-Up.Woody",
+      "texture": "skinT.png",
+      "type": "free",
+      "cape": "skinTcape.png"
+    },
+    {
+      "localization_name": "skinF",
+      "geometry": "geometry.PowerRangers.Alpha5",
+      "texture": "skinF.png",
+      "type": "free",
+      "cape": "skinFcape.png"
+    },
+    {
+      "localization_name": "im",
+      "geometry": "geometry.MoanaCharacterPack.MauiHalfShark",
+      "texture": "im.png",
+      "type": "free",
+      "cape": "imcape.png"
+    },
+    {
+      "localization_name": "skin224",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skin224.png",
+      "type": "free",
+      "cape": "skin224cape.png"
+    },
+    {
+      "localization_name": "skin221",
+      "geometry": "geometry.StevenUniverse.Aquamarine",
+      "texture": "skin221.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skinA1",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA1.png",
+      "type": "free",
+      "cape": "skinA1cape.png"
+    },
+    {
+      "localization_name": "skinA2",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA2.png",
+      "type": "free"
+      "cape": "skinA2cape.png"
+    },
+    {
+      "localization_name": "skinA3",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA3.png",
+      "cape": "skinA3cape.png",
+      "animations":{
+        "move.legs": "animation.player.move.legs.stationary",
+        "move.arms": "animation.player.move.arms.zombie"
+      },
+      "type": "free"
+    },
+    {
+      "localization_name": "skinA4",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA4.png",
+      "type": "free",
+      "cape": "skinA4cape.png"
+    },
+    {
+      "localization_name": "skinA5",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA5.png",
+      "type": "free",
+      "cape": "skinA5cape.png"
+    },
+    {
+      "localization_name": "skinA6",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA6.png",
+      "type": "free",
+      "cape": "skinA6cape.png"
+    },
+    {
+      "localization_name": "skinA7",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA7.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skinA8",
+      "geometry": "geometry.MarioBrothers.Lemmy",
+      "texture": "skinA8.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skinA9",
+      "geometry": "geometry.MarioBrothers.Bowser",
+      "texture": "skinA9.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "ender",
+      "geometry": "geometry.humanoid.customSlim",
+      "texture": "ender.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "y3nderx",
+      "geometry": "geometry.NorseMythology.Ratatoskr",
+      "texture": "y3nderx.png",
+      "cape": "y3nderxcape.png",
+      "animations":{
+        "move.arms": "animation.player.move.arms.zombie" },
+      "type": "free"
+    },
+    {
+      "localization_name": "kin1Q",
+      "geometry": "geometry.DuckTales.Amunet",
+      "texture": "kin1Q.png",
+      "cape": "kin1Qcape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "y3nx",
+       "geometry": "geometry.MashUpHalloween.ArrowheadCostume",
+       "texture": "y3nx.png",
+       "cape": "y3nxcape.png", 
+       "animations":{
+         "move.arms": "animation.player.move.arms.zombie" },
+       "type": "free"
+    },
+   {
+      "localization_name": "banana",
+       "geometry": "geometry.MashupAdventureTime.BananaGuard",
+       "texture": "banana.png",
+       "animations":{
+         "move.arms": "animation.player.move.arms.zombie" },
+       "type": "free"
+    },
+    {
+      "localization_name": "skin781",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "skin781.png",
+      "cape": "skin781cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin782",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "skin782.png",
+      "cape": "skin782cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin783",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "skin783.png",
+      "cape": "783cape.png",
+      "type": "free"
+    },
+    {
+      "localization_name": "skin784",
+      "geometry": "geometry.ChineseMythology.PrincessIronFan",
+      "texture": "skin784.png",
+      "cape": "skin784cape.png",
+      "type": "free"
     }
-  },
-  "moreOptionsScreen": {
-    "brightOpacity": 1.0,
-    "darkOpacity": 0.4,
-    "iconSize": 30,
-    "color": "white",
-    "iconStyle": {
-      "active": {
-        "color": "#FFFFFF",
-        "opacity": 1.0
-      },
-      "inactive": {
-        "color": "#FFFFFF",
-        "opacity": 0.95
-      }
-    }
-  },
-  "closedCaptionOptions": {
-    "enabled": true,
-    "language": "en",
-    "textColor": "White",
-    "windowColor": "Transparent",
-    "backgroundColor": "Black",
-    "textOpacity": 1,
-    "backgroundOpacity": 0.6,
-    "windowOpacity": 0,
-    "fontType": "Proportional Sans-Serif",
-    "fontSize": "Medium",
-    "textEnhancement": "Uniform"
-  },
-  "upNext": {
-    "showUpNext": true,
-    "timeToShow": 10
-  },
-  "playbackSpeed": {
-    "options": [ 0.5, 0.75, 1, 1.25, 1.5, 2 ]
-  },
-  "skipControls": {
-    "enabled": false,
-    "skipBackwardTime": 10,
-    "skipForwardTime": 10,
-    "buttons": {
-      "previousVideo": {
-        "enabled": true,
-        "index": 1
-      },
-      "skipBackward": {
-        "enabled": true,
-        "index": 2
-      },
-      "skipForward": {
-        "enabled": true,
-        "index": 3
-      },
-      "nextVideo": {
-        "enabled": true,
-        "index": 4
-      }
-    },
-    "controlBarSkipControls": {
-      "previousVideo": {
-        "enabled": true,
-        "index": 1
-      },
-      "skipBackward": {
-        "enabled": true,
-        "index": 2
-      },
-      "playPause": {
-        "enabled": true,
-        "index": 3
-      },
-      "skipForward": {
-        "enabled": true,
-        "index": 4
-      },
-      "nextVideo": {
-        "enabled": true,
-        "index": 5
-      }
-    }
-  },
-  "castControls": {
-    "enabled": false,
-    "skipBackwardTime": 10,
-    "skipForwardTime": 10,
-    "buttons": {
-      "previousVideo": {
-        "enabled": true,
-        "index": 1
-      },
-      "skipBackward": {
-        "enabled": true,
-        "index": 2
-      },
-      "skipForward": {
-        "enabled": true,
-        "index": 3
-      },
-      "nextVideo": {
-        "enabled": true,
-        "index": 4
-      }
-    },
-    "iconStyle": {
-      "active": {
-        "color": "#3eb5f7"
-      },
-      "inactive": {
-        "color": "#FFFFFF"
-      }
-    }
-  },
-  "controlBar": {
-    "enabled": true,
-    "volumeControl": {
-      "color": ""
-    },
-    "iconStyle": {
-      "active": {
-        "color": "#FFFFFF",
-        "opacity": 1.0
-      },
-      "inactive": {
-        "color": "#FFFFFF",
-        "opacity": 0.95
-      }
-    },
-    "autoHide": true,
-    "height": 90,
-    "logo": {
-      "imageResource": {"url": "","androidResource": "logo","iosResource": "logo"},
-      "clickUrl": "http://www.ooyala.com",
-      "target": "_blank",
-      "width": 96,
-      "height": 24
-    },
-    "adScrubberBar": {
-      "backgroundColor": "rgba(175,175,175,1)",
-      "bufferedColor": "rgba(127,127,127,1)",
-      "playedColor": "rgba(255,63,128,1)",
-      "scrubberHandleColor": "rgba(67,137,255,1)",
-      "scrubberHandleBorderColor": "rgba(255,255,255,1)"
-    },
-    "scrubberBar": {
-      "backgroundColor": "rgba(175,175,175,0.5)",
-      "bufferedColor": "rgba(175,175,175,0.7)",
-      "playedColor": "",
-      "scrubberHandleColor": "rgba(67,137,255,1)",
-      "scrubberHandleBorderColor": "rgba(255,255,255,1)",
-      "thumbnailPreview": true
-    },
-    "tooltips":{
-      "enabled":false
-    },
-    "qualitySelection":{
-      "format": "bitrate"
-    }
-  },
-  "live": {
-    "forceDvrDisabled": false
-  },
-  "isVrAnimationEnabled": {
-    "vrNotification": true,
-    "vrIcon": false
-  },
-  "audio": {
-    "audioLanguage": "none"
-  },
-  "animationDurations": {
-    "vrNotification": 5,
-    "vrIcon": 4
-  },
-  "buttons": {
-    "desktopContent": [
-      {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
-      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
-      {"name":"timeDuration", "location":"controlBar", "whenDoesNotFit":"drop", "minWidth":145 },
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"chromecast", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"airPlay", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"share", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"discovery", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"closedCaption", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"quality", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
-      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-      {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"arrowsBlack", "location": "mainView", "whenDoesNotFit":"keep", "minWidth":45 }
-    ],
-    "desktopAd": [
-      {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"logo", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":125 },
-      {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
-    ],
-    "mobileContent": [
-      {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":28 },
-      {"name":"live", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45},
-      {"name":"timeDuration", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":60 },
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"chromecast", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"airPlay", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"share", "location":"moreOptions" },
-      {"name":"discovery", "location":"moreOptions" },
-      {"name":"closedCaption", "location":"moreOptions" },
-      {"name":"stereoscopic", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"audioAndCC", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":28 },
-      {"name":"pipButton", "location": "controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 }
-    ],
-    "mobileAd": [
-      {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":28 },
-      {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
-      {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":28 },
-      {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":28 }
-    ],
-    "audioOnly": {
-      "desktop": [
-        {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":200 },
-        {"name":"skipControls", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":200 },
-        {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
-        {"name":"share", "location":"moreOptions" },
-        {"name":"playbackSpeed", "location":"moreOptions" }
-      ],
-      "mobile": [
-        {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":60 },
-        {"name":"seekBackwards", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":60 },
-        {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":60 },
-        {"name":"seekForward", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":60 },
-        {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
-        {"name":"share", "location":"moreOptions" },
-        {"name":"playbackSpeed", "location":"moreOptions" }
-      ]
-    }
-  },
-  "icons": {
-    "play": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0076", "fontStyleClass": "oo-icon oo-icon-play-slick"},
-    "pause": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0067", "fontStyleClass": "oo-icon oo-icon-pause-slick"},
-    "volume": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0062", "fontStyleClass": "oo-icon oo-icon-volume-on-ooyala-default"},
-    "volumeOff": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0070", "fontStyleClass": "oo-icon oo-icon-volume-mute-ooyala-default"},
-    "expand": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0069", "fontStyleClass": "oo-icon oo-icon-system-fullscreen"},
-    "compress": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006a", "fontStyleClass": "oo-icon oo-icon-system-minimizescreen"},
-    "ellipsis": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0066", "fontStyleClass": "oo-icon oo-icon-system-menu"},
-    "replay": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0063", "fontStyleClass": "oo-icon oo-icon-system-replay"},
-    "next": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0044", "fontStyleClass": "oo-icon oo-icon-next"},
-    "previous": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u003c", "fontStyleClass": "oo-icon oo-icon-previous"},
-    "forward": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0028", "fontStyleClass": "oo-icon oo-icon-forward"},
-    "share": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006f", "fontStyleClass": "oo-icon oo-icon-share"},
-    "cc": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006B", "fontStyleClass": "oo-icon oo-icon-cc"},
-    "stereoscopic": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0057", "fontStyleClass": "oo-icon"},
-    "discovery": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006C", "fontStyleClass": "oo-icon oo-icon-discovery-binoculars"},
-    "quality": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006D", "fontStyleClass": "oo-icon oo-icon-bitrate"},
-    "setting": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u006E", "fontStyleClass": "oo-icon oo-icon-system-settings"},
-    "dismiss": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0065", "fontStyleClass": "oo-icon oo-icon-system-close"},
-    "toggleOn": {"fontFamilyName": "fontawesome", "fontString": "\uf205", "fontStyleClass": ""},
-    "toggleOff": {"fontFamilyName": "fontawesome", "fontString": "\uf204", "fontStyleClass": ""},
-    "left": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0072", "fontStyleClass": "oo-icon oo-icon-system-left-arrow"},
-    "right": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0073", "fontStyleClass": "oo-icon oo-icon-system-right-arrow"},
-    "learn": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0074", "fontStyleClass": "oo-icon oo-icon-system-more-information"},
-    "skip": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0075", "fontStyleClass": "oo-icon oo-icon-skip-slick"},
-    "warning": {"fontFamilyName": "fontawesome", "fontString": "\uf06a", "fontStyleClass": ""},
-    "auto": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0064", "fontStyleClass": "oo-icon oo-icon-system-auto"},
-    "arrowsBlack": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0052", "fontStyleClass": "oo-icon"},
-    "arrowsWhite": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0052", "fontStyleClass": "oo-icon"},
-    "circleArrowsBlack": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u005D", "fontStyleClass": "oo-icon"},
-    "circleArrowsWhite": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u005D", "fontStyleClass": "oo-icon"},
-    "stereoOn": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0057", "fontStyleClass": "oo-icon oo-icon-system-auto"},
-    "stereoOff": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0057", "fontStyleClass": "oo-icon oo-icon-system-auto"},
-    "vrIcon": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0059", "fontStyleClass": "oo-icon"},
-    "audioAndCC": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u005F", "fontStyleClass": "oo-icon oo-icon-audio-and-cc"},
-    "selected": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u0040", "fontStyleClass": "oo-icon oo-icon-selected"},
-    "chromecast-connected": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u003B", "fontStyleClass": "oo-icon"},
-    "chromecast-disconnected": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u003A", "fontStyleClass": "oo-icon"},
-    "airPlay-connected": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u007C", "fontStyleClass": "oo-icon"},
-    "airPlay-disconnected": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u007B", "fontStyleClass": "oo-icon"},
-    "pipInButton": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u002B", "fontStyleClass": "oo-icon"},
-    "pipOutButton": {"fontFamilyName": "ooyala-slick-type", "fontString": "\u002C", "fontStyleClass": "oo-icon"}
-  }
+
+  ]
 }
